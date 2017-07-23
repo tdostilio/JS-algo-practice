@@ -1,10 +1,10 @@
-function findMultiples(number, multiple1, multiple2) {
+function findMultiples(number) {
     var sum = 0;
     for (var i=0;i<number;i++) {
-        if ((i%multiple1) === 0) {
+        if ((i%3) === 0) {
             sum += i;
         }
-        else if ((i%multiple2) === 0) {
+        else if ((i%5) === 0) {
             sum += i;
         }
     }
